@@ -14,4 +14,4 @@
 - npm start or npm start commands to start running the browser.
 - if we delete node-modules, we install them by typing npm install
 - Component is esencially a function and it has to return something which is normally a jsx template.
-
+- sfc stands for 'stataless functional component', and it's a quick snnipet to create a functional component and a boiled component.
