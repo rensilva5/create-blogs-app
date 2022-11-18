@@ -15,3 +15,13 @@
 - if we delete node-modules, we install them by typing npm install
 - Component is esencially a function and it has to return something which is normally a jsx template.
 - sfc stands for 'stataless functional component', and it's a quick snnipet to create a functional component and a boiled component.
+
+# functionality
+
+- Create components.
+- Create templates.
+- Use and pass props.
+- Use useState.
+- Passing functions as props.
+- UseEffect runs every in every render.
+- Be careful to rerender in a infinitive loop, but it coul be really when fetching data.
