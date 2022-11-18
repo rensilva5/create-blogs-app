@@ -25,3 +25,5 @@
 - Passing functions as props.
 - UseEffect runs every in every render.
 - Be careful to rerender in a infinitive loop, but it coul be really when fetching data.
+- This is a dependency array => [] and it can be used as second argument.
+- This empty array (dependency array) makes sure that hook only runs the function once when it first been rendered.
