@@ -1,21 +1,17 @@
 import { useState } from "react";
+import BlogList from "./BlogList";
 
 const Home = () => {
-    const [country, setCountry] = useState('france')
-    const [city, setCity] = useState('paris')
-
-const handleSubmit = () => {
-    setCountry('england')
-    setCity('london')
-}
+    const [blogs, setBlogs] = useState([
+        { title: 'my blog', body: 'ohn gloria inm', author: 'charly', id: 1 },
+        { title: 'welcome everyone', body: 'always himno', author: 'Colombia', id: 2 },
+        { title: 'my rythym', body: 'Inmarcecible', author: 'charly', id: 3 }, 
+    ])
 
 
     return ( 
         <div className="home">
-            <h2>Homepage</h2>
-            <h2>{ country }'s capital is {city}</h2>
-            <button onClick={handleSubmit}>Click here</button>
-            {/* <button onClick={(e) => handleSubmitAgain('mario', e)}>Click here</button> */}
+            <BlogList blogs={blogs} header='another test'/>
         </div>
      );
 }

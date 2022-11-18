@@ -7,6 +7,7 @@ const Navbar = () => {
                 <a href="/create" style={{
                     color: 'white',
                     backgroundColor: "lightblue",
+                    // backgroundColor: "salmon",
                     borderRadius: '8px'
                 }}>New Blog</a>
             </div>
