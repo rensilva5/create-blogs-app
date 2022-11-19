@@ -12,6 +12,12 @@
             "body": "spectaculat country",
             "author": "france",
             "id": 3
+        },
+        {
+            "title": "my third country",
+            "body": "marvelous country",
+            "author": "italy",
+            "id": 3
         }
         
     ]
