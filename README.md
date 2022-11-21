@@ -32,3 +32,6 @@
 
 - useEffect
 - create a local db => data base.
+
+# Routes
+- npm install react-router-dom@5 //To install the react-router
