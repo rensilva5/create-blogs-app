@@ -36,3 +36,4 @@
 # Routes
 - npm install react-router-dom@5 //To install the react-router
 - alwayas souroud routes with stwich
+- Instead of using "href", we use "Link to" for react to intercept requests. To prevent the requests to the server everytime.
