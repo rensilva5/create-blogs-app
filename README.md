@@ -35,3 +35,4 @@
 
 # Routes
 - npm install react-router-dom@5 //To install the react-router
+- alwayas souroud routes with stwich
