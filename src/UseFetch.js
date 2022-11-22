@@ -6,8 +6,9 @@ const useFetch = (url) => {     //hooks need to start we the use word
     const [error, setError] = useState(null)
 
     useEffect(() => {
+      const abortControl = new AbortController()
         setTimeout(() => {
-          fetch(url) // end point
+          fetch(url, {signal: abortControl.signal}) // end point  // //associating abortController wiht fetch
             .then((res) => {      //return promise
                 if(!res.ok) {
                     throw Error('Could not fetch data')
@@ -21,10 +22,16 @@ const useFetch = (url) => {     //hooks need to start we the use word
               setError(null)
             })
             .catch((err) => {
+              if (err.name === 'AbortError') {
+                console.log('fetch aborted')
+              } else {
                 setError(err.message)
                 setIsLoading(false)
+              }
             })  //this method catchs any error the system might have.
         }, 1000);
+
+        return () => abortControl.abort()
       }, [url]);
       return { data, isLoading, error }
 }
