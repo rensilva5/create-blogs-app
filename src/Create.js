@@ -1,7 +1,42 @@
+import { useState } from "react";
+
 const Create = () => {
+const [title, setTitle] = useState('')
+const [body, setBody] = useState('')
+const [author, setAuthor] =useState('england')
+
     return (
         <div className="create">
             <h1>create new component</h1>
+            <form>
+                <label>Blog title</label>
+                <input
+                    type="text"
+                    required
+                    value={title}
+                    onChange={(e) => setTitle(e.target.value)}
+                />
+                <label>Blog body:</label>
+                <textarea
+                    required
+                    value={body}
+                    onChange={(e) => setBody(e.target.value)}
+                ></textarea>
+                <label>Blog Author</label>
+                <select
+                    value={author}
+                    onChange={(e) => setAuthor(e.target.value)}
+                >
+                    <option value='england'>england</option>
+                    <option value='france'>france</option>
+                    <option value='italy'>italy</option>
+                    <option value='spain'>spain</option>
+                </select>
+                <button>Submit</button>
+                <p>{ title }</p>
+                <p>{ body }</p>
+                <p>{ author }</p>
+            </form>
         </div>
     );
 }
