@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Create = () => {
 const [title, setTitle] = useState('')
 const [body, setBody] = useState('')
 const [author, setAuthor] =useState('england')
 const [isPending, setIsPending] = useState(false)
+const history = useHistory()
 
 
 const handleSubmit = (e) => {
@@ -20,6 +22,7 @@ const handleSubmit = (e) => {
     }).then(() => {
         console.log('contact added')
         setIsPending(false)
+        history.push('/')
     })
 }
 
