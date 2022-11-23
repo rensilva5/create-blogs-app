@@ -29,8 +29,8 @@ const useFetch = (url) => {     //hooks need to start we the use word
                 setIsLoading(false)
               }
             })  //this method catchs any error the system might have.
-        }, 1000);
-
+        }, 500);
+        
         return () => abortControl.abort()
       }, [url]);
       return { data, isLoading, error }

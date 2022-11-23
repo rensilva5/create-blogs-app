@@ -9,7 +9,7 @@
         },
         {
             "title": "my second country",
-            "body": "spectaculat country",
+            "body": "spectacular country",
             "author": "france",
             "id": 2 
         },
@@ -18,6 +18,12 @@
             "body": "marvelous country",
             "author": "italy",
             "id": 3
+        },
+        {
+            "title": "another favorite country",
+            "body": "georgous country",
+            "author": "spain",
+            "id": 4
         }
         
     ]
