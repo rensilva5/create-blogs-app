@@ -1,28 +1,34 @@
 {
-  "blogs": [
+  "contacts": [
     {
-      "title": "my first country",
-      "body": "wonderful country",
-      "author": "england",
+      "name": "Andrew Brown",
+      "description": "Blood presure",
+      "therapist": "Chris",
       "id": 1
     },
     {
-      "title": "my second country",
-      "body": "spectacular country",
-      "author": "france",
+      "name": "Helen Silva",
+      "description": "Overweight, good condition overal",
+      "therapist": "Peter",
       "id": 2
     },
     {
-      "title": "my third country",
-      "body": "marvelous country",
-      "author": "italy",
+      "name": "Charly Thomson",
+      "description": "OCD condition, anxiety",
+      "therapist": "Carlson",
       "id": 3
     },
     {
-      "title": "another favorite country",
-      "body": "georgous country",
-      "author": "spain",
+      "name": "Michael Melo",
+      "description": "Pending exams' results",
+      "therapist": "Nickolas",
       "id": 4
+    },
+    {
+      "name": "Canelo",
+      "description": "Great medical condition",
+      "therapist": "Chris",
+      "id": 5
     }
   ]
 }

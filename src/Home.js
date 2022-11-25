@@ -1,10 +1,10 @@
-import BlogList from "./BlogList";
+import ContactList from "./ContactList";
 import useFetch from "./UseFetch";
 
 const Home = () => {
-    const { data: blogs, isLoading, error } = useFetch("http://localhost:8000/blogs")
-  // const HandleDeleteBlog = (id) => {
-  //     const newBlogs = blogs.filter(blog => blog.id !== id)
+    const { data: contacts, isLoading, error } = useFetch("http://localhost:8000/contacts")
+  // const HandleDeleteContact = (id) => {
+  //     const newContacts = contacts.filter(blog => blog.id !== id)
   //     setBlogs(newBlogs)
   // }
   
@@ -12,7 +12,7 @@ const Home = () => {
     <div className="home">
       { error && <div>{error}</div> }
       {isLoading && <div>Loading...</div>}
-      {blogs && <BlogList blogs={blogs} header="another test" />}
+      {contacts && <ContactList contacts={contacts} header="Contact List" />}
     </div>
   );
 };

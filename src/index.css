@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-/* some styles */
+/* adding some styles */
 * {
   margin: 0;
   font-family: 'Quicksand';
   color: #333;
 }
 .navbar {
-  padding: 20px;
+  padding: 2px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -36,36 +36,36 @@
 
 /* Contact content / list  */
 
-.blog-preview {
+.contact-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
 }
-.blog-preview:hover {
+.contact-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1)
 }
-.blog-preview h2 {
+.contact-preview h2 {
   font-size: 20px;
   color: rgb(231, 27, 27);
   margin-bottom: 8px;
 }
-.blog-preview a{
+.contact-preview a{
   text-decoration: none;
 }
 
 /* Contact details page */
 
-.blog-details h2 {
+.contact-details h2 {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 10px;
 }
 
-.blog-details div {
+.contact-details div {
   margin: 20px 0;
 }
 
-.blog-details button {
+.contact-details button {
   background: #f1356d;
   color: #fff;
   border: 0;
@@ -74,7 +74,7 @@
   cursor: pointer;
 }
 
-/* new blog or contact form */
+/* new contact form */
 .create {
   max-width: 400px;
   margin: 0 auto;
@@ -106,6 +106,7 @@
   cursor: pointer;
 }
 
+/* not found page */
 .not-found {
   padding: 10px 16px;
   margin: 20px 0;

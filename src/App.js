@@ -2,8 +2,8 @@ import './App.css';
 import Home from './Home';
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Create from './Create';
-import BlogDetails from './BlogDetails';
+import CreateContact from './CreateContact';
+import ContactDetails from './ContactDetails';
 import NotFound from './NotFound';
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
             <Home />
           </Route>
           <Route path='/create'>
-            <Create />
+            <CreateContact />
           </Route>
           <Route path='/blogs/:id'>
-            <BlogDetails />
+            <ContactDetails />
           </Route>
           <Route path='*'>
             <NotFound />
