@@ -4,7 +4,9 @@
 * {
   margin: 0;
   font-family: 'Quicksand';
-  color: #333;
+  color: rgb(45, 34, 34);
+  /* background-color: rgb(237, 242, 245); */
+  background-size: cover; 
 }
 .navbar {
   padding: 2px;
@@ -15,7 +17,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: darkblue;
+  color: rgb(45, 34, 34);
 }
 .navbar .links {
   margin-left: auto;
@@ -32,6 +34,11 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+  background-image: url('./nati.jpg');
+  background-size: cover;
+  padding: 1rem;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, .9);
 }
 
 /* Contact content / list  */
@@ -49,7 +56,12 @@
   color: rgb(231, 27, 27);
   margin-bottom: 8px;
 }
-.contact-preview a{
+
+.contact-preview p {
+  font-size: 17px;
+}
+
+.contact-preview a {
   text-decoration: none;
 }
 

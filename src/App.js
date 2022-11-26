@@ -19,7 +19,7 @@ function App() {
           <Route path='/create'>
             <CreateContact />
           </Route>
-          <Route path='/blogs/:id'>
+          <Route path='/contacts/:id'>
             <ContactDetails />
           </Route>
           <Route path='*'>

@@ -23,7 +23,7 @@ const handleDelete = () => {
                     <h2>{ contact.name }</h2>
                     <p>Added by therapist { contact.therapist }</p>
                     <div>{ contact.description }</div>
-                    <button onClick={handleDelete}>Delete</button>
+                    <button onClick={ handleDelete }>Delete</button>
                 </article>
             )}
         </div>

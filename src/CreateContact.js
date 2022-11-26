@@ -52,12 +52,13 @@ const handleSubmit = (e) => {
                     <option value='Peter'>Peter</option>
                     <option value='Chris'>Chris</option>
                     <option value='Nickolas'>Nickolas</option>
+                    <option value='Henry'>Henry</option>
                 </select>
                 { !isPending && <button>Submit</button>}
                 { isPending && <button disabled>Adding a new contact</button>}
-                <p>{ name }</p>
+                {/* <p>{ name }</p>
                 <p>{ description }</p>
-                <p>{ therapist }</p>
+                <p>{ therapist }</p> */}
             </form>
         </div>
     );

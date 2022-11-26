@@ -25,10 +25,16 @@
       "id": 4
     },
     {
-      "name": "Canelo",
-      "description": "Great medical condition",
-      "therapist": "Chris",
-      "id": 5
+      "name": "Kasandra",
+      "description": "Needs diet",
+      "therapist": "Nickolas",
+      "id": 6
+    },
+    {
+      "name": "Ali Smith",
+      "description": "High sugar level; needs attention",
+      "therapist": "Nickolas",
+      "id": 7
     }
   ]
 }
