@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-- intall node or if you have it then:
+- install node or if you have it then:
 - check version of your node by typing node -v.
 - npx runs node.
 - npx create-react-app (name of the project) then enter.
